@@ -1,0 +1,600 @@
+body{
+	margin: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+.navbar{
+	background-color: #23272B;
+	font-family: Arial;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	z-index: 1;
+
+}
+
+.logo{
+	margin: 35px 0 0 100px;
+	float: left;
+}
+
+.navMenu{
+	margin-top: 20px;
+	margin-left: 0;
+	margin-bottom: 25px;
+	margin-right: 120px;
+	float: right;
+}
+.navMenu .icon {
+	display: none;
+	margin-left: 70px;
+  
+  }
+
+.navMenu a{
+	float: left;
+	display: block;
+	font-size: 15px;
+	color: #D3D4D5;
+	letter-spacing: 0.0015em;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 25px;
+	text-decoration: none;
+}
+.dropdown{
+	float: left;
+	overflow: hidden;
+}
+.dropdown .dropbtn{
+	font-size: 15px;
+	border: none;
+	outline: none;
+	color: #D3D4D5;
+	letter-spacing: 0.0015em;
+	background-color: inherit;
+	font-family: inherit;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 25px;
+	
+}
+
+.dropdown-content{
+	border-radius: 5px;
+	display: none;
+	padding:50px auto;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+	
+}
+
+.dropdown-content a{
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.navMenu a:hover, .dropdown:hover .dropbtn{
+	color: #D50036;
+}
+
+#nav-btn{
+	float: left;
+	margin-left: 120px;
+}
+
+.nav-btn {
+	border-radius: 5px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 18px;
+  background: #ffffff;
+  text-decoration: none;
+  padding: 20px 22px;
+    
+}
+.nav-btn:hover{
+	cursor: pointer;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+	
+}
+.bkg{
+	width: 85%;
+	height: 80%;
+	position: absolute;
+	top: 1%;
+	left: 7.5%;
+}
+.name-logo{
+	width: 52%;
+	margin: auto;
+	background-color: #F9F9F9;
+
+}
+.name-logo img{
+	margin: 110px auto 0;
+	padding: 0;
+	width: 100%;
+
+}
+.right-now{
+	font-family: 'Arial Narrow', sans-serif;
+	font-size: 32px;
+	color: #D50036;
+	font-style: italic;
+	margin-top: 0;
+	position: absolute;
+	right: 30%;
+	top: 37.5%;
+}
+.name-inc p{
+	width: 51%;
+	margin: 40px auto;
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+}
+
+.brief-history h1{
+	font-family: 'Arial Bold', sans-serif;
+	font-size: 68px;
+	font-weight: 800;
+	text-align: center;
+	margin: 120px auto 10px;
+}
+
+.brief-history p{
+	width: 85%;
+	font-family: Arial;
+	font-size: 17px;
+	margin: auto;
+	line-height: 1.5;
+
+}
+.milestone-container{
+	width: 67.5%;
+	margin: 45px 15%;
+
+}
+.year{
+	width: 35px;
+	background-color: lightpink;
+	padding: 18px;
+	font-size: 16px;
+	font-family: 'Arial bold', Arial, sans-serif;
+	border-radius: 5px;
+	margin: 15px;
+	float: left;
+}
+
+.paragraph{
+		width: 95%;
+		float: none;
+		margin: 30px 0 15px 20px;
+		padding: 35px 30px 20px ;
+		font-size: 17.5px;
+		font-family: 'Arial bold', Arial, sans-serif;
+		line-height: 1.5;
+}
+.year-growth hr{
+	width: 95%;
+	border: 2px solid #D50036;
+	background-color: #D50036;
+	border-radius: 5px;
+	margin-left: 15px;
+
+}
+.year-growth{
+	background-color: ghostwhite;
+	border-radius: 3px;
+	padding: 5px;
+	margin: 25px;
+	width: 100%;
+}
+.fa-angle-down{
+	color: #D50036;
+	position: relative;
+	left: 50%;
+	margin: 20px;
+}
+.left-redlines{
+	position: absolute;
+	left: 0;
+	top: 275%;
+
+}
+
+.right-redline{
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 340%;
+	margin-bottom: 0;
+}
+.cmv-content{
+	width: 66%;
+	margin: 140px 16.5% 50px;
+}
+.core-values, .mission, .vision{
+	background-color: #f7f7f7;
+	border-radius: 5px;
+	margin: 20px 0 50px;
+	padding: 1px 20px;
+	width: 100%;
+
+}
+.cmv-content h2{
+	font-size: 38px;
+	font-family: "Arial bold", Arial, sans-serif;
+	font-weight: 800;
+	padding: 0;
+	margin-bottom: 0;
+}
+.cmv-content p{
+	font-size: 16px;
+	font-family: "Arial bold", Arial, sans-serif;
+	padding: 5px 15px 40px;
+	line-height: 1.5;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+.cmv-content hr{
+	border: 2px Solid #D50036;
+	background-color: #D50036;
+	border-radius: 5px;
+	margin: 0;
+}
+.core-values hr{
+	width: 25%;
+}
+.mission h2{
+	text-align: right;
+}
+.mission hr{
+	width: 20%;
+	float: right;
+}
+
+.our-leaders h1{
+	margin: 50px auto 70px;
+	font-size: 40px;
+	font-family: 'Arial Bold', Arial, sans-serif;
+	font-weight: 800;
+	text-align: center;
+
+}
+.about-leaders{
+	background-color: #23272B;
+	width: 70%;
+	margin: 50px auto;
+	padding: 75px;
+}
+.about-ceo{
+	width: 65%;
+	float: right;
+	
+}
+
+.about-leaders h1{
+	font-family: 'Arial Bold', Arial, sans-serif;
+	color: white;
+	line-height: 1.5;
+	font-weight: 800;
+	font-size: 42px;
+	padding: 0;
+	margin: 0;
+}
+.about-leaders h2{
+	font-family: 'Arial Bold', Arial, sans-serif;
+	color: white;
+	line-height: 1.5;
+	font-size: 18px;
+	font-weight: 800;
+	padding-bottom: 5px;
+	margin: 0;
+}
+.about-leaders p{
+	font-family: 'Arial Bold', Arial, sans-serif;
+	color: white;
+	line-height: 1.5;
+	
+}
+.about-leaders hr{
+	float: none;
+	border: 1px solid grey;
+	margin: 75px 0;
+	background-color: grey;
+	width: 100%;
+}
+.about-coo{
+	width: 69%;
+	float: left;
+	padding-right: 50px;
+	
+}
+
+.coo-img{
+	margin: 0;
+	width: 275px;
+	height: 275px;
+}
+
+.footer{
+	background-color: #23272B;
+	width: 100%;
+	margin: 0;
+}
+.footer-content{
+	display: flex;
+	flex-wrap: wrap;
+	width: 85%;
+	margin: auto;
+}
+.footer a{
+	text-decoration: none;
+	display: block;
+	font-family: "Arial bold", Arial, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: -0.0012em;
+	color: white;
+	padding: 15px 0;
+}
+.footer h3{
+	font-family: "Arial bold", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: -0.012em;
+	color: white;
+	padding: 15px 0 5px;
+}
+.footer-col-1{
+	color: #fff;
+	font-family: "Arial bold", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	width: 18%;
+	padding: 15px 10px;
+	margin: 35px 12.5% 20px 0;
+	letter-spacing: -0.012em;
+}
+.footer-col-1 img{
+	margin-left: 5%;
+	margin-bottom: 20px;
+}
+.footer-col-1 a{
+	text-decoration: underline;
+	text-decoration-color: #fff;
+	text-decoration-thickness: 1.5px;
+	padding: 10px 10px 10px;
+
+}
+.footer-col-2, .footer-col-3, .footer-col-3, .footer-col-4, 
+.footer-col-5{
+	width: 10%;
+	padding: 15px;
+	margin: 5px 27.5px;
+}
+.footer-col-5 .fa-brands{
+	color: #fff;
+	padding: 15px 5px 15px 0;
+}
+.chat-us-icon{
+	padding: 8px 15px;
+	border-radius: 100%;
+	background-color: #D50036;
+	position: fixed;
+	bottom: 5px;
+	left: 50px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .navMenu a, .dropdown .dropbtn, .nav-btn {
+    display: none;
+  }
+  body, html{
+  	width: 100%;
+
+  }
+  .logo{
+  	display: block;
+  }
+  .navMenu a.icon {
+    float: left;
+    display: block;
+    width: 100%;
+  }
+	.navMenu.responsive {position: relative;}
+  .navMenu.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navMenu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navMenu.responsive .dropdown {float: none;}
+  .navMenu.responsive .dropdown-content {position: relative;}
+  .navMenu.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .right-now{
+  	top: 19%;
+  	font-size: 20px;
+  }
+  .brief-history h1{
+  	margin-top: 105px;
+  }
+	.milestone-container{
+	width: 70%;
+	margin: 45px 13%;
+
+	}
+	.paragraph{
+		width: 80%;
+		float: right;
+		margin: 0;
+		padding: 25px 0 15px ;
+		font-size: 17.5px;
+	}
+	.cmv-content hr{
+		width: 100%;
+	}
+	.red-lines{
+	display: none;
+	}
+	.about-leaders{
+	float: none;
+	text-align: center;
+	}
+	.about-ceo, .about-coo{
+	width: 100%;
+	float: none;
+	}
+	.about-leaders p{
+	text-align: justify;
+	}
+
+	.footer-content{
+	width: 90%;
+	}
+
+	.footer-col-1{
+		width: 100%;
+	}
+	.footer-col-1 a{
+		padding: 10px 0 10px;
+		margin-bottom: 0;
+	}
+
+	.footer-col-2, .footer-col-3, .footer-col-3, .footer-col-4, 
+	.footer-col-5{
+		width: 40%;
+		padding: 0 15px;
+		margin: 0 27.5px 5px 0;
+	}
+
+}
+
+
+
+@media screen and (max-width: 550px){
+
+	.navMenu .icon {
+  	width: 2%;
+    
+  }
+
+  .logo{
+  	margin-left: 2px;
+  	width: 2%;
+  }
+  .navMenu{
+  	width: 27.5%;
+  	margin-right: 20%;
+
+  }
+  .navMenu a, .dropdown .dropbtn{
+  	font-size: 12px;
+  }
+  .name-logo{
+  	width: 80%;
+
+  }
+
+ 	.right-now{
+  	top: 26%;
+  	font-size: 20px;
+  	right: 19%;
+  }
+  .brief-history h1{
+  	margin-top: 100px;
+  	font-size: 36px;
+  }
+  .brief-history p{
+  	text-align: justify;
+  }
+	.milestone-container{
+	width: 100%;
+	margin: 45px 0;
+
+	}
+	.paragraph{
+		width: 70%;
+		float: right;
+		margin: 0;
+		padding: 25px 0 15px ;
+		font-size: 16px;
+	}
+	.cmv-content{
+		float: none;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.cmv-content p{
+		text-align: left;
+	}
+
+	.about-leaders p{
+		text-align: left;
+	}
+	.about-leaders h1{
+		font-size: 24px;
+		text-align: left;
+	}
+	.about-leaders h2{
+		font-size: 13px;
+		text-align: left;
+	}
+	.footer-content{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		
+	}
+
+	.footer-col-1{
+		width: 100%;
+	}
+	.footer-col-1 a{
+		padding: 10px 0 10px;
+		margin-bottom: 0;
+
+	}
+	.footer-col-2, .footer-col-3, .footer-col-3, .footer-col-4, 
+	.footer-col-5{
+		width: 30%;
+		padding: 0 15px;
+		margin: 0 27.5px 5px 0;
+	}
+	.footer-content h3{
+		margin-top: 0;
+	}
+}
